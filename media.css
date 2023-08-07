@@ -1,0 +1,153 @@
+@media screen and (max-width:991px) {
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .cta-section {
+        padding-block: 80px;
+    }
+
+    .examples-area {
+        gap: 20px;
+    }
+
+    .examples-card {
+        width: 48%;
+        height: 200px;
+    }
+
+    .feature-img img {
+        gap: 20px;
+        height: 80%;
+        width: 90%;
+    }
+
+    .cta-section {
+        padding-block: 80px;
+    }
+}
+
+/* tablets screen */
+@media screen and (max-width:767px) {
+
+    .examples-card {
+        width: 100%;
+
+    }
+
+    .primary-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-section {
+        flex-direction: column-reverse;
+    }
+
+    .header-left {
+        max-width: 40vw;
+        text-align: center;
+    }
+
+
+    .feature-card {
+        min-width: 48%;
+
+    }
+
+    .big-feature-container {
+        flex-direction: column;
+        margin-bottom: 20px;
+
+    }
+
+    #second-big-feature-container {
+        flex-direction: column;
+        margin-bottom: 20px;
+
+    }
+
+    .feature-section {
+        display: inline;
+    }
+
+    .feature-img img {
+        height: 90vh;
+    }
+
+    .feature-desc {
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-column {
+        align-items: stretch;
+    }
+
+}
+
+
+/* mobile screen  */
+@media screen and (max-width:497px) {
+
+
+    :root {
+        --padding-inline-section: 10px;
+    }
+
+    .container {
+        overflow: auto;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .feature-card {
+        min-width: 100%;
+
+    }
+
+    .examples-card {
+        width: 100%;
+    }
+
+    .feature-img img {
+        height: 60vh;
+    }
+
+    .primary-button {
+        font-size: 12px;
+
+    }
+
+
+    .header-left {
+        max-width: 100%;
+    }
+
+}
