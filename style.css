@@ -67,6 +67,7 @@ ul {
 .flex {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 
@@ -128,18 +129,17 @@ ul {
 }
 
 .main-nav {
-    height: 50px;
+    height: 70px;
     margin-top: 20px;
     justify-content: space-between;
 
 }
 
-/* .h-link {
-
+.nav-links {
     flex-basis: 730px;
-} */
+}
 
-.nav-links ul {
+*/ .nav-links ul {
     justify-content: end;
     gap: 40px
 }

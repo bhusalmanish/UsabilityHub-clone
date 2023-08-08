@@ -23,18 +23,18 @@
         <div class="container main-nav flex">
             <a href="#" class="company-logo company-logo">
                 <img src="./assets/asset 1.png" alt="company-logo"> </a>
-            <div class="nav-links">
+            <div class="nav-links" id="nav-links">
                 <ul class="flex">
                     <li><a href="#" class="h-link"> Products</a></li>
                     <li><a href="#" class="h-link">Customer</a></li>
                     <li><a href="#" class="h-link"> Pricing</a></li>
                     <li><a href="#" class="h-link"> Resourse</a></li>
-                    <li><a href="#" class="h-link    secondary-button"> Sign in</a> </li>
-                    <li><a href="#" class="h-link  primary-button "> Sign up </a></li>
+                    <li><a href="#" class="h-link secondary-button"> Sign in</a> </li>
+                    <li><a href="#" class="h-link primary-button "> Sign up </a></li>
 
                 </ul>
             </div>
-            <a href="#" class="nav-toggle  h-link"> <i class="fa-solid fa-bars"> </i></a>
+            <a href="#" id="nav-toggle" class="nav-toggle  h-link"> <i class="fa-solid fa-bars"> </i></a>
 
         </div>
     </nav>
@@ -258,7 +258,21 @@
 
     <div class="spacer" style="height:1vh; "> </div>
     <script src="https://kit.fontawesome.com/761f06d3e1.js" crossorigin="anonymous"></script>
+
+
+    <script>
+        const toggleButton = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        toggleButton.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+            console.log("click");
+        });
+
+    </script>
+
 </body>
+
 
 
 </html>

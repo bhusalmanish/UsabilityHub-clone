@@ -8,9 +8,28 @@
         margin-right: 20px;
     }
 
-    .nav-links {
-        display: none;
+    .main-nav {
+        overflow: inital;
     }
+
+    .nav-links {
+        top: 120px;
+        position: absolute;
+        background-color: white;
+        left: -1000px;
+        width: 100%;
+    }
+
+    .nav-links.active {
+        left: 0;
+
+    }
+
+    .nav-links ul {
+        height: 350px;
+        flex-direction: column;
+    }
+
 
     .cta-section {
         padding-block: 80px;
@@ -38,7 +57,6 @@
 
 /* tablets screen */
 @media screen and (max-width:767px) {
-
     .examples-card {
         width: 100%;
 
@@ -102,10 +120,8 @@
 
 }
 
-
 /* mobile screen  */
 @media screen and (max-width:497px) {
-
 
     :root {
         --padding-inline-section: 10px;
@@ -145,9 +161,16 @@
 
     }
 
-
     .header-left {
         max-width: 100%;
+    }
+
+    .subfooter-container {
+        flex-wrap: wrap;
+    }
+
+    .nav-links {
+        top: 150px;
     }
 
 }
